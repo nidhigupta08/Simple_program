@@ -1,26 +1,26 @@
-// number> 1;
-// which has only 2 factors 1 and itself.
+
 public class PrimeNumber {
 
 	public static void main(String args[]) {
-		int num= 3;   // given number 
-		int count = 0; // count used for factor (how many factor the given number has.)
-		
-		if(num> 1) {   //i<=num means i=1,2,3 (from this 3 should be divisible by only two if not means not prime number)
-			for(int i=1; i<=num;i++)   
-			{
-				if(num%i == 0) 
-					count++;
+				System.out.println(isPrime(19)); // true
+				System.out.println(isPrime(49)); // false
 			}
-			if(count == 2) {
-				System.out.println("Given number is Prime number ");
+	// 0 and 1 are not prime numbers
+			public static boolean isPrime(int n) {
+				if (n == 0 || n == 1) {
+					return false;
+				}
+				if (n == 2) {
+					return true;
+				}
+				 // if n is divisible by i, then n is not prime
+				for (int i = 2; i <= n / 2; i++) {
+					if (n % i == 0) {
+						return false;
+					}
+				}
+
+				return true;
 			}
-			else {
-				System.out.println("Not a prime number");
-			}
-		}
-		else {
-			System.out.println(" Given number is not a prime number");
-		}
 	}
-}
+

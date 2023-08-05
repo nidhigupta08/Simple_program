@@ -26,9 +26,9 @@
 
 import java.util.HashMap;
 
-public class Count_Each_Character {
+public class Count_Each_Character{
 	
-    public static void main(String args[]) {
+    public static void main(String[] args) {
     	
         String str = "google";
         
