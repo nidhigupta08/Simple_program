@@ -2,7 +2,7 @@
 public class StringPalindromeOrNot {
 
 	public static void main(String[] args) {
-String original="madam";
+String original="suman";
 String reverse="";
 
 int stringlength=original.length();
