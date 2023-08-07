@@ -22,6 +22,7 @@ public class  removeSpace{
     	
     	for (char c : charArray) {
     		if (!Character.isWhitespace(c))
+    			
     			output.append(c);
     	}
     	

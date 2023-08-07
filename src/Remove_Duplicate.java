@@ -7,10 +7,10 @@ public class Remove_Duplicate {
      //Create an empty string   and to store the result after removing duplicates.
      String newstr = new String();   
        
-     int leng = str.length();   //nidhi 5 words
+    
          
      // Traverse the string and check for the repeated characters   
-     for (int i = 0; i < leng; i++)    
+     for (int i = 0; i <str.length(); i++)    
      {   
          // store the character available at i th index in the string  
          char charAtPosition = str.charAt(i);   //i[0]=n  i[1]=i i[2]=d i[3]= h i[4]=i  
