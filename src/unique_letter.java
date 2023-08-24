@@ -49,7 +49,7 @@ public class unique_letter{
 		 }
 		 for(Character letter: Unique_letter)
 		 {
-			 System.out.println( letter);
+			 System.out.print( letter);
 		 }
 	}
 }

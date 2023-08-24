@@ -18,13 +18,13 @@ class    Swapping_Two_Num
 //        y = x - y;   
 //        x = x - y;   
 //        System.out.println("After swapping: "+x +"  " + y);   
-    	   int x=25 ;
-    	    int y=23;
-    	    System.out.println("Before swapping two numbers are x: " +x + " y: "+y);
-    	    x=x+y;
-    	    y=x-y;
-    	    x=x-y;
-    	    System.out.println("After swapping  x:" +x +"y:" +y);  
+   int x=2;
+   int y=3;
+   System.out.println("before swapping:" +x +" " +y);
+   x=x+y;
+   y=x-y;
+   x=x-y;
+   System.out.println("After swapping :" + x +" "+ y);
         
     }   
 }  
